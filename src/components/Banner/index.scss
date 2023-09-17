@@ -1,0 +1,24 @@
+@use "../../sass/variables" as *;
+
+.banner__slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $dnc-dark-blue;
+  width: 100%;
+}
+
+.swiper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 415px;
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  
+}
